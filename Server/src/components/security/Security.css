@@ -1,0 +1,154 @@
+.passwordsetting p {
+  font-weight: 400;
+}
+
+.passwordsetting p span {
+  font-weight: 600;
+  min-width: 110px;
+  display: inline-block;
+}
+
+.updateall {
+  background-color: #3F51B5;
+  color: #fff;
+  float: right;
+}
+
+.cusribbon {
+  background: #E92C2C;
+  padding: 4px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  line-height: 10px;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.loopiocns {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.loopiocns svg {
+  border: 1px solid #ddd;
+  padding: 3px;
+  color: #303f9f;
+  background: #ebeef3;
+  border-radius: 3px;
+}
+
+.recomndlist ul {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.recomndlist li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #ebeef3;
+  padding: 12px 0;
+}
+
+.recomndlist li .sugicons {
+  margin-right: 20px;
+}
+
+.recomndlist li .sugicons svg {
+  width: 24px;
+}
+
+.recomndlist li .sugicons .success {
+  color: #7EC465;
+}
+
+.recomndlist li .sugicons .alerts {
+  color: #FFB829;
+}
+
+.recomndlist li .sugicons .danger {
+  color: #E92C2C;
+}
+
+.recomndlist li .sugesttext p {
+  font-size: 12px;
+  padding: 0;
+  font-weight: 500;
+}
+
+.resourceblocks {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  width: 100%;
+}
+
+.resourceblocks .r_blocks {
+  width: 120px;
+  height: 100px;
+  background: #fff;
+  margin: 5px;
+  border: 1px solid #eaedf3;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.resourceblocks .r_blocks:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.resourceblocks .r_blocks h3 {
+  font-size: 14px;
+}
+
+.resourceblocks .r_blocks p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.accessdiv .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 600;
+  top: 0px;
+  color: #fff;
+}
+.accessdiv .css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px 5px 5px 5px !important;
+  font-size: 12px;
+  background: #3f51b5;
+  border-radius: 0;
+  color: #fff;
+}
+
+.accessdiv .MuiFormControl-root {
+  margin: 0;
+}
+
+.accessdiv .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.accessdiv .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff !important;
+  background: #3f51b5;
+  padding: 2px 15px;
+}
+.acc_toolbar {
+  min-height: auto !important;
+  margin: 0;
+}

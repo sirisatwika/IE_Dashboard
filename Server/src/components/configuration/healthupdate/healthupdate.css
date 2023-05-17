@@ -1,0 +1,103 @@
+.healthstatus p {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 5px;
+    line-height: normal;
+    color: #1A1A1A;
+}
+
+.healthstatus p span {
+    color: #3F51B5;
+}
+
+.allupdateblock {
+    margin-bottom: 30px;
+}
+
+.allupdateblock .title {
+    padding: 0 0px 10px 35px;
+    color: #3f51b5;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.allupdateblock .css-ahj2mt-MuiTypography-root {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.updatestatus {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.updateicons {
+    flex: 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.updateicons svg {
+    width: 20px;
+    color: #303f9f;
+}
+
+.updateprogess {
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.updatelist {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.updatelist svg {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.success {
+    color: #7EC465;
+}
+
+.failed {
+    color: #E92C2C;
+}
+
+.pending {
+    color: #F39536;
+}
+
+.updatebtn {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    color: #303f9f;
+}
+
+.updateallbtn button {
+    background: #3F51B5;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 12px;
+    border-radius: 0;
+    float: right;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+}

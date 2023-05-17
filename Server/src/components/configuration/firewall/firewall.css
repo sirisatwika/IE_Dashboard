@@ -1,0 +1,55 @@
+.text p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+    color: #8b8b8f;
+}
+.tabletitle {
+    background: #303f9f;
+    padding: 10px;
+    color: #fff;
+}
+.inouttablepp .css-ee20y-MuiPaper-root {
+    background-color: transparent;
+}
+.inouttablepp .MuiToolbar-regular {
+    padding: 5px 10px;
+    background: #303f9f;
+    min-height: auto;
+}
+.inouttablepp .MuiTypography-h6 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0;
+}
+.inouttablepp .MuiToolbar-regular button {
+    padding: 0;
+    color: #fff;
+}
+.inouttablepp thead tr th {
+    min-width: 110px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 10px 10px;
+    border-bottom: none;
+    color: #3F51B5;
+    border: 1px solid #dfe3e9;
+    background: #ebeef3;
+}
+.inouttablepp tbody tr td {
+    min-width: 110px;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 8px 10px;
+    color: #555350 !important;
+    text-align: left;
+    border: 1px solid #ebeef3;
+}

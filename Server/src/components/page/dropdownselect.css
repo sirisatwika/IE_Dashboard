@@ -1,0 +1,46 @@
+.tabdropselect{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.selecttabdropdown .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root,
+.selectmap .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    top: 0px;
+}
+.selecttabdropdown .css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
+.selectmap .css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 5px 5px 5px 5px !important;
+    font-size: 12px;
+    width: 120px !important;
+    
+}
+.selecttabdropdown .MuiFormControl-root,
+.selectmap .MuiFormControl-root{
+    margin: 8px;
+}
+.selecttabdropdown .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root,
+.selectmap .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.MuiPaper-elevation .MuiList-root .MuiButtonBase-root {
+    font-size: 12px !important;
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    padding: 5px !important;
+    /* display: block; */
+}
+
+.selecttabdropdown .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+.selectmap .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+}

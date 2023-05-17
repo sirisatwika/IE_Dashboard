@@ -1,0 +1,98 @@
+.provisionedstatus h3{
+    display: flex;
+    align-items: center;
+}
+.provisionedstatus span{
+    color: #3f51b5;
+}
+.provisionedstatus h3 svg{
+    width: 15px;
+    color: #7EC465;
+    margin: 0 5px;
+}
+.MuiPaper-elevation .MuiList-root .MuiButtonBase-root {
+    font-size: 12px !important;
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    padding: 8px !important;
+    display: flex;
+    justify-content: flex-start;
+}
+.datameasereselect{
+    clear: both;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+.wrapperdata{
+    clear: both;
+}
+.datameasereselect .css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 5px 5px 5px 5px !important;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.datameasereselect .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    top: 0px;
+}
+.MuiPaper-elevation .MuiList-root .MuiCheckbox-root{
+    padding: 3px !important;
+}
+.MuiPaper-elevation .MuiList-root .MuiCheckbox-root svg{
+    width: 18px;
+    height: auto;
+    margin-right: 5px;
+}
+.MuiPaper-elevation .MuiList-root .MuiListItemText-root .MuiListItemText-primary{
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+
+.datawraper{
+    width: 150px;
+    height: 130px;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+}
+.datawraper p{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.datawraper h2{
+    text-align: right;
+    font-size: 22px;
+    padding: 0;
+}
+
+.endpointicons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ebeef3;
+    background: #e8ecf3;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.endpointicons svg{
+    width:18px;
+    color: #3f51b5;
+}

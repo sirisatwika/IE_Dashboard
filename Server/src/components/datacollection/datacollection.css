@@ -1,0 +1,69 @@
+
+.datatabs .css-1ujnqem-MuiTabs-root{
+    min-height: 30px;
+}
+.datatabs .css-1ujnqem-MuiTabs-root .css-heg063-MuiTabs-flexContainer{
+    justify-content: space-around;
+}
+.datatabs .css-heg063-MuiTabs-flexContainer .css-h0q0iv-MuiButtonBase-root-MuiTab-root{
+    padding: 0;
+    min-height: 30px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: inherit;
+    letter-spacing: 0;
+    width: 50%;
+    display: block;
+    border-radius: 5px;
+}
+.datatabs .css-heg063-MuiTabs-flexContainer .css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background: #024c88;
+ 
+    color: #fff;
+}
+.datatabs .css-heg063-MuiTabs-flexContainer button svg{
+    width: 16px;
+}
+.datatabs .css-1ujnqem-MuiTabs-root .css-1aquho2-MuiTabs-indicator{
+    display: none;
+}
+.datatabs .css-19kzrtu{
+    padding: 5px;
+    border: 1px solid #e9effb;
+    background: #f6f7f9;
+}
+
+.renewbtn{
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 12px;
+}
+.statusicons{
+padding: 1px 10px;
+border-radius: 50px;
+display: inline-block;
+height: 25px;
+color: #fff;
+font-size: 12px;
+font-weight: 500;
+}
+.statusicons svg{
+    width: 12px;
+}
+.inactiveicon{
+    background: #F44336;  
+}
+.activeicon{
+    background: #009688;
+}
+/* .inactiveicon svg{
+    color: var(--bs-red);
+}
+.activeicon svg{
+    color: var(--bs-teal);
+} */

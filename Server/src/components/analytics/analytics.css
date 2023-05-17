@@ -1,0 +1,83 @@
+.r_slider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.r_slider p {
+    padding: 0;
+    min-width: 80px;
+    line-height: normal;
+    font-size: 13px;
+}
+
+.r_slider .css-nnid7-MuiSlider-valueLabel {
+    font-family: inherit;
+    font-size: 12px;
+    padding: 0;
+    background: transparent;
+    color: #303f9f;
+    top: -5px;
+    font-weight: 600;
+}
+
+.r_slider .css-eg0mwd-MuiSlider-thumb {
+    width: 15px;
+    height: 15px;
+    background: #fdfbfb;
+}
+
+.r_slider .css-14pt78w-MuiSlider-rail {
+    background-color: #CCCCCC;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.r_slider .css-1gv0vcd-MuiSlider-track {
+    border-radius: 10px;
+    background-color: #3F51B5;
+    height: 5px;
+}
+
+.popupwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.edgebtn {
+    font-size: 13px !important;
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    display: table !important;
+    max-width: 100%;
+    min-width: 200px !important;
+    margin: 8px auto !important;
+    color: #3F51B5 !important;
+    text-align: left;
+}
+
+.edgebtn svg {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.r_sliderblock {
+    width: 100%;
+    flex: 1 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+
+.r_slidervalues {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+}

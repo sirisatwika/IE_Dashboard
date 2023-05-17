@@ -1,0 +1,73 @@
+.map_region {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.map_left .MuiButtonGroup-root {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.map_left .MuiButtonGroup-root button {
+  padding: 3px;
+  min-width: 28px;
+  line-height: normal;
+  border-color: #dedede;
+  font-size: 16px;
+  color: #747373;
+}
+
+.map_left .MuiButtonGroup-grouped:not(:last-of-type) {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.map_left .MuiButtonGroup-grouped:not(:first-of-type) {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.map_left {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.map_left svg.rsm-svg {
+  width: 100%;
+  height: 250px;
+}
+
+.tooltip {
+  border-radius: 15px !important;
+  padding: 10px !important;
+  max-width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cusmarker {
+  display: flex;
+  align-items: center;
+}
+
+.cusmarker p {
+  font-size: 12px;
+  line-height: normal;
+  text-align: center;
+}
+
+
+
+@media (max-width:1199px) {
+  .map_region {
+    display: block;
+  }
+
+  .map_left {
+    width: 100%;
+    padding: 0;
+  }
+}

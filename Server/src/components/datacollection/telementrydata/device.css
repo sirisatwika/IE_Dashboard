@@ -1,0 +1,97 @@
+.devicestatus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.devicestatus h2 span {
+    color: #3f51b5;
+}
+
+.devicestatus h2 {
+    font-size: 12px;
+}
+
+.devicestatus p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    color: #808183;
+}
+
+.deviceloglist ul {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.deviceloglist ul li {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid #d4dae3;
+    font-weight: 500;
+}
+
+.speedmeter_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 100%;
+}
+
+.dev_speed {
+    margin: 5px;
+    width: 230px;
+    height: 120px;
+    border: 1px solid #e6e6e7;
+    display: table;
+    padding: 10px;
+}
+
+.dev_speed svg.speedometer {
+    padding: 0;
+    margin: 0 auto;
+    display: table;
+}
+
+.s_pading {
+    padding: 20px;
+}
+
+.dev_speed h2 {
+    font-size: 16px;
+}
+
+.dev_speed p {
+    font-size: 16px;
+    padding: 15px 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.selectdropdown .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    top: 0px;
+}
+
+.selectdropdown .css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 5px 5px 5px 5px !important;
+    font-size: 12px;
+    background: whitesmoke;
+}
+
+.selectdropdown .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dropdownselect {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

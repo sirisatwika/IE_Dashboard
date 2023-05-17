@@ -1,0 +1,133 @@
+.card_block {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 100%;
+}
+
+.card_wrappers a {
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.card_block .card_wrappers {
+    width: 210px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e1e5ed;
+    box-shadow: none;
+}
+
+.cards_title {
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    border-bottom: 1px solid #788dad;
+    letter-spacing: 0.6px;
+}
+
+.cards_title svg {
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card_content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card_content .card_icons {
+    padding: 15px;
+    color: #ffffff;
+}
+
+.card_content .card_icons svg {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+.card_content .card_details {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #f8f9ff;
+}
+
+.titlebg1 {
+    background: #3f51b5;
+}
+.contentbg1 {
+    background: #2a3ead;
+}
+.loopcolor1 {
+    background: #e7ebfd;
+    color: #2777aa;
+}
+
+.titlebg2 {
+    background: #12997b;
+}
+
+.loopcolor2 {
+    background: #c3fff2;
+    color: #22a387;
+}
+
+.contentbg2 {
+    background: #22a387;
+}
+
+.titlebg3 {
+    background: #eda833;
+}
+
+.loopcolor3 {
+    background: #fdf6e9;
+    color: #eda833;
+}
+
+.contentbg3 {
+    background: #f6bc59;
+}
+
+.titlebg4 {
+    background: #d54c67;
+}
+
+.loopcolor4 {
+    background: #fff3f5;
+    color: #d54c67;
+}
+
+.contentbg4 {
+    background: #ea5e79;
+}
+
+.titlebg5 {
+    background: #03a6cb;
+}
+
+.loopcolor5 {
+    background: #f5fdff;
+    color: #03a6cb;
+}
+
+.contentbg5 {
+    background: #04b5dd;
+}

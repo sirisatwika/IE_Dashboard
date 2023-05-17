@@ -1,0 +1,227 @@
+.config-tab {
+    position: relative;
+}
+
+.tabs-configuration {
+    background: #fdfdfd;
+    margin-top: 0;
+    min-height: 40px !important;
+}
+
+.tabs-configuration .css-1aquho2-MuiTabs-indicator {
+    background-color: #3F51B5;
+}
+
+.tabs-configuration button {
+    text-transform: capitalize;
+    color: #747576;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 10px 20px;
+    min-height: 40px;
+}
+
+.config-tab .css-19kzrtu {
+    padding: 10px;
+    border: 1px solid #e5eaf3;
+}
+
+.tabs-configuration .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #f6f7f9;
+    background: #024c88;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.card-configuration {
+    padding: 10px;
+    min-height: 200px;
+    box-shadow: none !important;
+    border: 1px solid #e1e5ed;
+    background: #fff !important;
+    height: 100%;
+    /* display: grid; */
+}
+
+.networkconfig-aligned {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.networkcongig-span {
+    color: #1A1A1A !important;
+}
+
+.networkconfig-aligned span {
+    font-size: 13px;
+    color: #757575;
+    line-height: 23px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.config-tab .css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: #3F51B5 !important;
+}
+
+.speed-text {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.speed-text svg {
+    width: 15px;
+}
+
+.upspeed {
+    color: #19c903;
+}
+
+.downspeed {
+    color: #f52861;
+}
+
+.available_network .radiobtn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.available_network .radiobtn label {
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.available_network .radiobtn .progres_bar {
+    width: 80%;
+    padding: 0 10px;
+}
+
+.available_network .radiobtn input {
+    margin: 0 10px 0 0;
+}
+
+.radiobtnsubmit {
+    float: right;
+}
+
+.radiobtnsubmit button {
+    padding: 5px 15px !important;
+    margin: 0 5px;
+    border-radius: 0;
+    font-size: 11px !important;
+    text-transform: capitalize;
+}
+
+.radiobtnsubmit .cancel {
+    border-color: #e1e1e1;
+    color: #1A1A1A;
+}
+
+.radiobtnsubmit .apply {
+    background-color: #3F51B5;
+    color: #fff;
+}
+
+.othernetwork_toglebtn .MuiToggleButtonGroup-root {
+    float: right;
+    clear: both;
+}
+
+.othernetwork_toglebtn .MuiToggleButtonGroup-root button {
+    padding: 3px 5px !important;
+    text-transform: capitalize;
+    min-width: 70px;
+    border-radius: 0;
+    font-size: 12px !important;
+}
+
+.othernetwork_tab {
+    clear: both;
+    width: 100%;
+}
+
+.othernetwork_field {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.othernetwork_field label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.othernetwork_field input {
+    width: 100%;
+    border: 1px solid #d9d6d6;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 20px;
+    border-radius: 3px;
+}
+
+.othernetwork_toglebtn .css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+    background: #3F51B5 !important;
+    color: #fff;
+}
+
+.addbtn {
+    text-align: center;
+    display: table;
+    background: #009688;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.configbtns {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.configbtns a,
+.configbtns button {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: inherit;
+    letter-spacing: 0;
+    font-weight: 600;
+    background: #22b7a9;
+    color: #fff;
+    padding: 4px 10px;
+    margin: 0 5px;
+    position: initial;
+}
+
+.configbtns button {
+    right: 155px;
+    background: #795548;
+}
+
+.configbtns a:hover,
+.configbtns button:hover {
+    background: #024c88;
+}
+
+.authbtn {
+    margin: 0 !important;
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    height: auto !important;
+    background-color: var(--bs-teal) !important;
+}

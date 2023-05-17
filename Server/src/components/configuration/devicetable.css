@@ -1,0 +1,217 @@
+.devicetable {
+    display: block;
+    overflow: auto;
+}
+
+.devicetable>.MuiPaper-root {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* .configtable .tss-qbo1l6-MUIDataTableToolbar-actions {
+    margin-top: 35px;
+} */
+
+.devicetable .tss-qbo1l6-MUIDataTableToolbar-actions button {
+    padding: 5px;
+}
+
+.devicetable .tss-qbo1l6-MUIDataTableToolbar-actions button svg {
+    width: 18px;
+    color: var(--bs-gray-600);
+}
+
+.devicetable .tss-1vsygk-MUIDataTableFilterList-root {
+    margin: 0 !important;
+}
+
+.devicetable>.MuiPaper-root>.MuiToolbar-root {
+    min-height: auto;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.devicetable>.MuiPaper-root table tr>th {
+    padding: 0;
+    letter-spacing: 0;
+    border-bottom: none;
+    border: 1px solid #b6bfc5;
+    background: #e5e9ed;
+}
+
+.devicetable h6.MuiTypography-root.MuiTypography-h6.tss-hj53wm-MUIDataTableToolbar-titleText.css-2ulfj5-MuiTypography-root {
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.devicetable>.MuiPaper-root table tr>th button {
+    text-align: left;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 5px 10px;
+    background: transparent;
+    margin-left: 0;
+    color: #024c88;
+    font-size: 13px;
+    min-width: 120px;
+    justify-content: left;
+    margin-right: 0;
+    line-height: 20px;
+}
+
+
+.devicetable>.MuiPaper-root table tr>th .MuiCheckbox-root,
+.devicetable>.MuiPaper-root table>tbody>tr>td .MuiCheckbox-root {
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+}
+
+.devicetable>.MuiPaper-root table>tbody>tr>td {
+    padding: 8px 10px;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 0;
+    border-bottom: none;
+    border: 1px solid #dcdfe1;
+    font-weight: 500;
+}
+
+.devicetable .tss-1vsygk-MUIDataTableFilterList-root {
+    margin: 5px 0;
+}
+
+.devicetable .tss-1vsygk-MUIDataTableFilterList-root .MuiChip-root {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inherit;
+    letter-spacing: 0;
+    height: auto;
+    padding: 5px;
+    background: #d3e6f9;
+}
+
+.devicetable .tss-1vsygk-MUIDataTableFilterList-root .MuiChip-root .MuiChip-label {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.devicetable .tss-1vsygk-MUIDataTableFilterList-root .MuiChip-root svg {
+    width: 16px;
+    color: #3d97f1;
+}
+
+.devicetable .css-nfmglb-MuiTableCell-root {
+    border-bottom: none;
+}
+
+.devicetable .tss-1fz4yw6-MUIDataTableSelectCell-fixedLeft {
+    position: relative;
+}
+
+.devicetable .cusslectcolumn select {
+    background: #f7f8fb;
+    border: 1px solid #e9e8e8;
+    border-radius: 10px;
+    padding: 4px 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #747678;
+    margin-right: 10px;
+}
+
+.cusslectcolumn {
+    display: flex;
+    align-items: center;
+}
+
+.cusslectcolumn .updatebtn {
+    text-transform: capitalize;
+    padding: 0 5px;
+    font-size: 12px;
+    font-family: inherit;
+    letter-spacing: 0;
+    min-width: auto;
+    font-weight: 600;
+    border: none;
+    text-decoration: underline;
+    min-width: 100px;
+}
+
+
+.customdatepicker .css-b3dvpx-MuiStack-root {
+    padding-top: 0;
+}
+
+.customdatepicker .css-b3dvpx-MuiStack-root>.MuiTextField-root {
+    min-width: 135px;
+}
+
+.customdatepicker .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: inherit;
+    font-size: 11px;
+    letter-spacing: 0;
+    color: #474a4c;
+}
+
+.customdatepicker .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 5px 8px;
+    background: #fafafb;
+}
+
+.customdatepicker .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: #e1e3e5;
+}
+
+.css-1hbyad5-MuiTypography-root {
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0 !important;
+    font-size: 14px !important;
+}
+
+.css-1tcwmcw-MuiPickersToolbar-root-MuiDateTimePickerToolbar-root {
+    padding: 10px !important;
+}
+
+.css-13vtpvu-MuiTypography-root-MuiPickersToolbarText-root {
+    font-family: inherit !important;
+    font-size: 16px !important;
+}
+
+.css-1b9e08i-MuiTypography-root-MuiPickersToolbarText-root {
+    font-family: inherit !important;
+    font-size: 20px !important;
+}
+
+.css-mvmxd9-MuiTypography-root-MuiPickersToolbarText-root,
+.css-1e4tpwf-MuiTypography-root-MuiPickersToolbarText-root-MuiDateTimePickerToolbar-separator {
+    font-family: inherit !important;
+    font-size: 23px !important;
+}
+
+.css-gdh8gx-MuiDateTimePickerToolbar-timeDigitsContainer {
+    display: flex;
+    align-items: center !important;
+}
+
+.css-ollblj-MuiDateTimePickerToolbar-amPmSelection .MuiDateTimePickerToolbar-ampmLabel {
+    font-size: 14px !important;
+    font-family: inherit !important;
+}
+
+.innertable thead tr th {
+    padding: 5px 8px !important;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inherit;
+    min-width: 110px;
+    line-height: 15px;
+}

@@ -1,0 +1,17 @@
+.rules_dropdownblock{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.rules_dropdownblock .css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+    background: #3F51B5 !important;
+    color: #fff;
+}
+.rules_dropdownblock .MuiToggleButtonGroup-root button {
+    padding: 3px 5px !important;
+    text-transform: capitalize;
+    min-width: 70px;
+    border-radius: 0;
+    font-size: 12px !important;
+}

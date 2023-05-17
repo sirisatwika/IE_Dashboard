@@ -1,0 +1,94 @@
+.e_toolbar {
+  padding: 0 !important;
+  min-height: 20px !important;
+}
+.e_title {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  font-family: inherit !important;
+  color: #585858;
+}
+.e-rowselect {
+  font-family: inherit !important;
+  padding: 0 10px;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+.edge_table thead {
+  background-color: #e5e9ed;
+  box-shadow: none;
+}
+.edge_table thead tr th {
+  min-width: 120px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 5px 10px;
+  border-bottom: none;
+  color: #3F51B5;
+  border: 1px solid #dcdfe1;
+  line-height: 20px;
+}
+.edge_table thead tr th:nth-child(1),
+.edge_table tbody tr td:nth-child(1) {
+  min-width: auto;
+}
+.edge_table thead tr th .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root,
+.edge_table tbody tr td .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 5px;
+}
+.edge_table thead tr th .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root svg,
+.edge_table tbody tr td .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root svg {
+  width: 18px;
+  height: 18px;
+}
+.edge_table tbody tr td {
+  min-width: 110px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding: 8px 10px;
+  color: #555350;
+  text-align: left;
+  border: 1px solid #dcdfe1;
+}
+.table_top{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+.edge_table tbody tr td .MuiChip-outlined svg{
+  width: 16px;
+  color: #83d2b2;
+  margin: 0;
+}
+.edgetable_pagination .MuiTablePagination-selectLabel{
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0;
+}
+.edgetable_pagination .css-16c50h-MuiInputBase-root-MuiTablePagination-select{
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.edgetable_pagination .css-levciy-MuiTablePagination-displayedRows{
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+}
+.edgetable_pagination .MuiTablePagination-actions{
+  margin-left: 10px !important;
+}
+.modeltablehead tr th{
+  background: #EBEEF3;
+  border: 1px solid #d9dbdf !important;
+  padding: 10px !important;
+}

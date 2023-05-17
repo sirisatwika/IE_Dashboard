@@ -1,0 +1,121 @@
+.login-wrapper {
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.login-left-wrapper {
+    flex: 1 auto;
+    background-image: url("../../assets/IE_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+    position: relative;
+}
+
+.login-left-wrapper::before {
+    content: "";
+    background: rgb(2 76 136 / 40%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.login-right-wrapper {
+    flex: 1 auto;
+    background: #fff;
+    width: 50%;
+    padding: 80px 150px;
+}
+
+.login-logo img {
+    width: 300px;
+}
+
+.login-logo {
+    margin-bottom: 15px;
+}
+
+.login-text {
+    margin-bottom: 15px;
+}
+
+.login-text h1 {
+    font-size: 18px;
+}
+
+.login-text p {
+    color: #777777;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.login-form .form-control {
+    padding: 0;
+    border: none;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.login-form .form-control span {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form .form-control input {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #6a6967;
+    padding: 5px 50px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.login_remember {
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.login_remember p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #024c88;
+}
+
+.login_remember input {
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+}
+
+.loginsubmit {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background: #024c88;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 15px auto;
+}
+
+.login_forgot a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #024c88;
+    font-size: 15px;
+    margin: 30px auto 0;
+    display: table;
+}

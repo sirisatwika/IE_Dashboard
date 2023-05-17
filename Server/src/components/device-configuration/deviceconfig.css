@@ -1,0 +1,105 @@
+.popupdiv {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.cusbtn {
+    text-transform: capitalize !important;
+    font-family: inherit !important;
+    font-size: 13px !important;
+    padding: 5px 20px !important;
+    font-weight: 600 !important;
+}
+
+.form_title {
+    padding: 10px 24px !important;
+    font-family: inherit !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.Gatewayforms .MuiFormControl-root {
+    margin-bottom: 5px;
+}
+
+.Gatewayforms .MuiFormControl-root .MuiFormLabel-root {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: normal;
+    color: #333434;
+
+}
+.Gatewayforms .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    -webkit-transform:translate(0px, 20px) scale(1);
+    -moz-transform: translate(0px, 20px) scale(1);
+    -ms-transform:translate(0px, 20px) scale(1);
+    transform:translate(0px, 20px) scale(1);
+  
+}
+
+.Gatewayforms .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    -webkit-transform: translate(0px, -10px) scale(0.75);
+    -moz-transform: translate(0px, -10px) scale(0.75);
+    -ms-transform: translate(0px, -10px) scale(0.75);
+    transform: translate(0px, -10px) scale(0.75);
+}
+
+.Gatewayforms .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+    -webkit-transform: translate(0px, -10px) scale(0.75);
+    -moz-transform: translate(0px, -10px) scale(0.75);
+    -ms-transform: translate(0px, -10px) scale(0.75);
+    transform: translate(0px, -10px) scale(0.75);
+}
+
+.Gatewayforms .MuiFormControl-root .MuiInputBase-root {
+    font-size: 14px;
+    color: #787373;
+    font-family: inherit;
+    padding-bottom: 5px;
+}
+
+.Gatewayforms .MuiFormControl-root label {
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.closebtn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.Gatewayforms button {
+    margin: 0 5px;
+    font-size: 13px;
+    text-transform: capitalize;
+    border-radius: 0;
+    font-family: inherit;
+    font-weight: 600;
+    height: 35px;
+}
+
+.Gatewayforms .cusbutnrest {
+    background: #d7d5d5;
+    color: #333;
+}
+
+.Gatewayforms .cusbutnrest:hover {
+    color: #fff;
+}
+
+.Gatewayforms .cusbtnsubmit {
+    background: var(--bs-gray);
+}
+
+.Gatewayforms .formbtnblock {
+    margin: 10px auto;
+    text-align: right;
+}
+
+.custom_dialog .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: 400px;
+}
